@@ -1,0 +1,45 @@
+if(Name="Varun") then
+			Put_Line("Hello " & Name);
+		else
+			Put_Line("I don't know you!");
+		end if;
+		
+Get(filename);
+		Open(File => File, Mode => In_File, Name => filename);
+		
+		
+		
+		function exists(Name: String) return Boolean is
+		The_File: Ada.Text_IO.File_Type;
+		begin	
+			Open(The_File,In_File,Name);
+			Close(The_File);
+			return True;
+		exception
+			when Name_Error => 
+				return False;
+		end exists;
+		
+loop
+			exit when end_of_file(File);
+				get(File,sline);
+				sline1:=to_string(sline);
+				for 
+				firstchar := Integer'value(sline1);
+				put_line(firstchar);
+		end loop;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		Responses: array(1..50) of integer;

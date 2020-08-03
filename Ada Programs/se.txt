@@ -1,0 +1,24 @@
+What went right?
+
+We were successfully able to implement  one module of project i.e ., estimation of traffic in an location based on Zip code and weather conditions.
+We have created a database which stores previous data (traffic history). We can now able to retrieive the traffic report based on this data.
+
+What worked well?
+
+-> Each memember in the team has contributed his part and were able to justify what they have done. 
+-> For any project to be successful , team work and collaboration is necessary and we were successful in bringing these traits to the table.
+-> We were able to develop the module and test it with all the necessary test cases where most of them were successful attempts and the ones which were unsuccessful , we were able to rectify the code.
+
+What was found to be particulary useful?
+
+-> We were able to successfully analyze a Traffic Monitoring System with different requirements and user stories.
+-> There are many real time services which does traffic monitoring system such as Google maps, Apple Maps, Yahoo maps. We as a team learned how these services generate traffic reports which such large chunks of data.
+-> While working on this project, we got insights on how the predective analytics are used in real time.
+
+
+Project Highlights:
+
+-> In Traffic monitoring application, we were able to analyze differnet requirements and use cases such as Map Interface, Directions, Estimated time, traffic data etc.
+-> Used git as project management tool , it helped the developers to work through branching and merging.
+-> Learned server side scripting in the proecess of implementation of a module in the project.
+-> Learned about project documentation and its versioning.

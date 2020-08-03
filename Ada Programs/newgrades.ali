@@ -1,0 +1,150 @@
+V "GNAT Lib v8"
+M P W=b
+A -mtune=generic
+A -march=i586
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U newgrades%b		newgrades.adb		9c1cbc3a NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.directories%s	a-direct.adb		a-direct.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.unbounded_io%s  a-tiunio.ads	a-tiunio.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20191208220954 76789da1 ada%s
+D a-calend.ads		20191208220954 2d5f01d4 ada.calendar%s
+D a-charac.ads		20191208220954 2d3ec45b ada.characters%s
+D a-chlat1.ads		20191208220954 66457d31 ada.characters.latin_1%s
+D a-direct.ads		20191208220954 9d42e46d ada.directories%s
+D a-except.ads		20191208220954 291912d5 ada.exceptions%s
+D a-finali.ads		20191208220954 bf4f806b ada.finalization%s
+D a-inteio.ads		20191208220956 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20191208220954 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20191208220954 119b8fb3 ada.streams%s
+D a-string.ads		20191208220954 90ac6797 ada.strings%s
+D a-strmap.ads		20191208220956 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20191208220954 ecdfa332 ada.strings.unbounded%s
+D a-suteio.ads		20191208220954 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20191208220956 491b781d ada.tags%s
+D a-textio.ads		20191208220954 881db35a ada.text_io%s
+D a-tiinio.ads		20191208220954 aa04e5d6 ada.text_io.integer_io%s
+D a-tiunio.ads		20191208220954 759c6b0c ada.text_io.unbounded_io%s
+D a-unccon.ads		20191208220954 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20191208220954 5ab55268 interfaces%s
+D i-cstrea.ads		20191208220954 e53d8b8e interfaces.c_streams%s
+D newgrades.adb		20191209205502 e64baa97 newgrades%b
+D system.ads		20191208220954 32a08138 system%s
+D s-atocou.ads		20191208220954 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20191208220954 0ebbdb71 system.crtl%s
+D s-exctab.ads		20191208220954 54135002 system.exception_table%s
+D s-ficobl.ads		20191208220954 078245e4 system.file_control_block%s
+D s-finmas.ads		20191208220954 7811a767 system.finalization_masters%s
+D s-finroo.ads		20191208220954 4ff27390 system.finalization_root%s
+D s-memory.ads		20191208220954 597d6634 system.memory%s
+D s-parame.ads		20191208220954 f896c45c system.parameters%s
+D s-secsta.ads		20191208220954 283dec34 system.secondary_stack%s
+D s-soflin.ads		20191208220954 a7318a92 system.soft_links%s
+D s-stache.ads		20191208220954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20191208220954 09bd3940 system.standard_library%s
+D s-stalib.adb		20191208220954 f2fe2716 system.standard_library%b
+D s-stoele.ads		20191208220956 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20191208220954 b16154c2 system.storage_pools%s
+D s-stposu.ads		20191208220954 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20191208220954 aedef97e system.stream_attributes%s
+D s-traent.ads		20191208220954 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20191208220954 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20191208220954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 22|1r6 2r5 3r6 3r33 4r6 4r36 5r6 5r31 6r6 6r27 52r17 55r17
+. 69r25 73r25 74r25 78r17 81r17 83r17 85r17 118r33 126r17 128r17 148r33
+X 5 a-direct.ads
+76K13*Directories 487e20 22|6w10 6r31
+295V13*Exists{boolean} 22|145s34
+X 8 a-inteio.ads
+18K13*Integer_Text_IO[17|46] 22|5w10 5r35
+X 11 a-string.ads
+16K13*Strings 35e16 22|3r10 3r37
+X 13 a-strunb.ads
+76K21*Unbounded 490e26 22|3w18 3r45
+79R9*Unbounded_String<7|43R9> 474e14 22|8r16 9r16
+100V13*To_String{string} 22|145s41 151s37 163s37
+X 16 a-textio.ads
+49K13*Text_IO 471e16 22|1w10 2r9 4r10 4r40 52r21 55r21 69r29 73r29 74r29
+. 78r21 81r21 83r21 85r21 118r37 126r21 128r21 148r37
+52P9*File_Type 22|13r15
+53n23*In_File{53E9} 22|151r28 163r28
+92U14*Open 22|151s17 163s17
+98U14*Close 22|160s17 168s17
+166U14*New_Line 22|52s29 55s29 69s37 73s37 74s37 78s29 81s29 83s29 85s29
+. 118s45 126s29 128s29 148s45
+183V13*End_Of_File{boolean} 22|154s35
+242U14*Put 22|79s17 116s33 123s25 129s17 143s25
+263U14*Put_Line 22|54s17 56s17 77s17 82s17 84s17 86s17 127s17 147s25
+X 17 a-tiinio.ads
+51U14*Get 22|48s25[8|18] 65s33[8|18] 164s17[8|18]
+66U14*Put 22|71s25[8|18] 72s25[8|18] 80s17[8|18] 115s33[8|18] 117s33[8|18]
+. 122s25[8|18] 124s25[8|18] 130s17[8|18]
+X 18 a-tiunio.ads
+25K21*Unbounded_IO 61e29 22|4w18 4r48
+52U14*Get_Line=55:42 22|155s33
+57U14*Get_Line=59:42 22|144s25
+X 22 newgrades.adb
+7U11*newgrades 7b11 170l13 170t22
+8r9 fname{13|79R9} 144m34 145r51 151r47 163r47
+9r9 sline{13|79R9} 155m47
+10i9 subjects{integer} 26r31 28r29 164m26 167r25
+11i9 count{integer} 45r45 62r29 80r21 90r29 130r26 152m17 156m33 156r40
+12i9 temp{integer} 101m33 103r29 107r63
+13p9 File{16|52P9} 48r29 65r37 151m22 151r22 154r47 155r42 160m23 160r23
+. 163m22 163r22 164r21 168m23 168r23
+14i9 sum{integer} 89m25 92m25 92r30 130r21
+15i9 n{integer} 48m34 49r33 65m42 66r47
+16a9 frequencyArray(integer) 88m17 94r36 95m41 97m41 97r62 101r39 104m33
+. 107m33 114r28 117r37 121r20 124r29
+17b9 nameOk{boolean} 142r35 145m25 146r28
+18A14 myArray(integer)<integer> 22r28 43r30
+19A14 newArray(integer)<integer> 22r38 44r35
+20A14 array1(integer)<integer> 45r35
+22V18 compute{integer} 22b18 22>26 22>36 34l13 34t20 70s39
+22a26 a{18A14} 29r28
+22a36 b{19A14} 29r33
+23i9 count{integer} 27m9 30m33 30r40 33r46
+24f9 mul{float} 26m9 33r53
+28i21 I{integer} 29r30 29r35
+38U19 reading 38b19 38>27 133l13 133t20 167s17
+38i27 subjects{integer} 43r41 44r47 47r29 64r37
+43a25 key{18A14} 49m25 70r47
+44a25 response1{19A14} 66m33 70r51 71r29
+45a25 frequency{20A14} 70m25 72r29 92r34 93r28 101r54 104r48 107r48
+47i21 I{integer} 49r29
+62i21 I{integer} 70r35 72r39
+64i29 J{integer} 66r43
+90i21 I{integer} 92r44 93r38 101r64 104r58 107r58
+113i21 I{integer} 114r43 115r37 117r52
+X 23 system.ads
+67M9*Address
+X 30 s-memory.ads
+53V13*Alloc{23|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{23|67M9} 105i<c,__gnat_realloc>22
+X 36 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

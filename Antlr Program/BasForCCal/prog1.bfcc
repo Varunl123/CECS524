@@ -1,0 +1,8 @@
+PROGRAM DATATYPES
+INT A
+INT B, C,        D
+FLOAT X, YourGoingToGetTiredOfTypingThisName, Z
+CHAR W, E, F, G, H,I,J,K,L,M,N,O,P,Q,R,S,T,U
+INT YourGoingToGetTiredOfTypingThisName
+CHAR M,N
+END DATATYPES.

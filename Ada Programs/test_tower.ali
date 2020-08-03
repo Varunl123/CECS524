@@ -1,0 +1,97 @@
+V "GNAT Lib v8"
+M P W=b
+A -mtune=generic
+A -march=i586
+P ZX
+
+RN
+RV NO_IO
+RV NO_RECURSION
+RV SPARK_05
+
+U test_tower%b		test_tower.adb		37b945ad NE OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.directories%s	a-direct.adb		a-direct.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.unbounded_io%s  a-tiunio.ads	a-tiunio.ali
+
+D ada.ads		20191208220954 76789da1 ada%s
+D a-calend.ads		20191208220954 2d5f01d4 ada.calendar%s
+D a-charac.ads		20191208220954 2d3ec45b ada.characters%s
+D a-chlat1.ads		20191208220954 66457d31 ada.characters.latin_1%s
+D a-direct.ads		20191208220954 9d42e46d ada.directories%s
+D a-except.ads		20191208220954 291912d5 ada.exceptions%s
+D a-finali.ads		20191208220954 bf4f806b ada.finalization%s
+D a-inteio.ads		20191208220956 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20191208220954 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20191208220954 119b8fb3 ada.streams%s
+D a-string.ads		20191208220954 90ac6797 ada.strings%s
+D a-strmap.ads		20191208220956 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20191208220954 ecdfa332 ada.strings.unbounded%s
+D a-suteio.ads		20191208220954 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20191208220956 491b781d ada.tags%s
+D a-textio.ads		20191208220954 881db35a ada.text_io%s
+D a-tiinio.ads		20191208220954 aa04e5d6 ada.text_io.integer_io%s
+D a-tiunio.ads		20191208220954 759c6b0c ada.text_io.unbounded_io%s
+D a-unccon.ads		20191208220954 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20191208220954 5ab55268 interfaces%s
+D i-cstrea.ads		20191208220954 e53d8b8e interfaces.c_streams%s
+D system.ads		20191208220954 32a08138 system%s
+D s-atocou.ads		20191208220954 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20191208220954 0ebbdb71 system.crtl%s
+D s-exctab.ads		20191208220954 54135002 system.exception_table%s
+D s-ficobl.ads		20191208220954 078245e4 system.file_control_block%s
+D s-finmas.ads		20191208220954 7811a767 system.finalization_masters%s
+D s-finroo.ads		20191208220954 4ff27390 system.finalization_root%s
+D s-parame.ads		20191208220954 f896c45c system.parameters%s
+D s-secsta.ads		20191208220954 283dec34 system.secondary_stack%s
+D s-soflin.ads		20191208220954 a7318a92 system.soft_links%s
+D s-stache.ads		20191208220954 a37c21ec system.stack_checking%s
+D s-stalib.ads		20191208220954 09bd3940 system.standard_library%s
+D s-stoele.ads		20191208220956 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20191208220954 b16154c2 system.storage_pools%s
+D s-stposu.ads		20191208220954 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20191208220954 aedef97e system.stream_attributes%s
+D s-traent.ads		20191208220954 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20191208220954 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20191208220954 1b7d22d2 system.wch_con%s
+D test_tower.adb	20191211043942 33b869fe test_tower%b
+X 1 ada.ads
+16K9*Ada 20e8 41|1r6 2r6 3r5 4r6 5r5 6r6 6r33 7r6 7r36 8r6 8r31 9r6 9r27
+. 25r1
+X 5 a-direct.ads
+76K13*Directories 487e20 41|9w10 9r31
+X 8 a-inteio.ads
+18K13*Integer_Text_IO[17|46] 41|2w10 8w10 8r35
+X 11 a-string.ads
+16K13*Strings 35e16 41|6r10 6r37
+X 13 a-strunb.ads
+76K21*Unbounded 490e26 41|6w18 6r45
+X 16 a-textio.ads
+49K13*Text_IO 471e16 41|1w10 3r9 4w10 5r9 7r10 7r40 25r5
+166U14*New_Line 41|25s13
+208U14*Put 41|22s1 24s1
+242U14*Put 41|17s1 19s1 21s1 23s1 43s1
+X 17 a-tiinio.ads
+56U14*Get 41|44s1[8|18]
+66U14*Put 41|18s1[8|18] 20s1[8|18]
+X 18 a-tiunio.ads
+25K21*Unbounded_IO 61e29 41|7w18 7r48
+X 41 test_tower.adb
+10U11*Test_Tower 10b11 46l5 46t15
+11E9 Pegs{character} 13r38 29r41
+12i1 Rings{natural} 44m5 45r22
+12i8 Moves{natural} 16m1 16r8 18r5 42m1
+13U11 MoveDisk 13b11 13>21 13>30 13>44 27l5 27t13 33s1 36s1
+13e21 FromPeg{11E9} 22r5
+13e30 ToPeg{11E9} 24r5
+13i44 Which{natural} 20r5
+29U11 Tower 29b11 29>17 29>26 29>33 29>47 35s1 37s1 39l5 39t10 45s1
+29e17 FromPeg{11E9} 33r10 35r7 36r10 37r22
+29e26 ToPeg{11E9} 33r18 35r24 36r18 37r15
+29e33 AuxPeg{11E9} 35r16 37r7
+29i47 N{natural} 32r4 33r24 35r30 36r24 37r30
+
